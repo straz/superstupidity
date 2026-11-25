@@ -1,0 +1,80 @@
+:root {
+  --ink: #1a1a1a;
+  --muted: #555;
+  --paper: #fbf8f1;
+  --accent: #b3261e;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 18px/1.6 Georgia, "Times New Roman", serif;
+}
+
+main {
+  max-width: 62rem;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 4rem;
+}
+
+header { margin-bottom: 2.5rem; }
+
+h1 {
+  margin: 0;
+  font: 900 clamp(2.4rem, 9vw, 3.6rem)/1 "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+h1 a { color: var(--ink); text-decoration: none; }
+
+.slogan {
+  margin: 1rem 0 0;
+  padding-left: 1rem;
+  border-left: 4px solid var(--accent);
+  color: var(--muted);
+  font-style: italic;
+  font-size: 1.15rem;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 453px);
+  gap: 3rem;
+  align-items: start;
+}
+
+@media (max-width: 760px) {
+  .columns { grid-template-columns: 1fr; gap: 2.5rem; }
+  .columns figure { order: -1; max-width: 453px; }
+}
+
+figure { margin: 0; }
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+figcaption {
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.75rem;
+  font: 700 0.85rem/1 "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+h2:not(:first-child) { margin-top: 2.25rem; }
+
+ul { list-style: none; margin: 0; padding: 0; }
+li { padding: 0.5rem 0; border-bottom: 1px solid #e6e1d6; }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover, a:focus-visible { text-decoration: underline; }

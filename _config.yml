@@ -1,0 +1,14 @@
+title: Super Stupidity
+description: "Never mind superintelligence, it's the colossal stupidity that will kill you."
+url: "https://superstupidity.org"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - "*~"
+  - README.md
