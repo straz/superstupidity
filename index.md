@@ -16,7 +16,7 @@ layout: default
 * [Marcus on AI](https://garymarcus.substack.com/) — Gary Marcus
 * [Where's Your Ed At](https://www.wheresyoured.at/) — Ed Zitron
 * [Pivot to AI](https://pivot-to-ai.com/) — David Gerard
-* [AI Snake Oil](https://www.aisnakeoil.com/) — Arvind Narayanan & Sayash Kapoor
+* [AI as Normal Technology](https://normaltech.ai/) — Arvind Narayanan & Sayash Kapoor
 * [AI Weirdness](https://www.aiweirdness.com/) — Janelle Shane
 * [Mystery AI Hype Theater 3000](https://www.dair-institute.org/maiht3k/) — Emily Bender & Alex Hanna
 
